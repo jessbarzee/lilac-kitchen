@@ -1,0 +1,74 @@
+header, main, footer{
+    max-width: 1300px;
+    margin: 0 auto;   
+}
+
+header, footer {
+    margin: 1rem auto;
+    padding: 1rem;
+    text-align: center;
+    align-items: center;
+    border: #606c38;
+    display: grid;
+}
+
+#hamButton {
+	display: block;
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	width: fit-content;
+	font-size: 1.5rem;
+	padding: .5rem;
+    margin-bottom: 1rem;
+	color: #fefae0;
+}
+
+nav {
+    grid-column: 1/5;
+    grid-row: 2/3;
+    background-color: #fefae0;
+}
+
+nav button {
+    margin: .2rem 2vw;
+    background-color: transparent;
+    border: none;
+    font-size: 2rem;
+    color: #555;
+}
+
+nav ul {
+    list-style-type: none;
+    display: none;
+	flex-direction: column;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li a {
+    display: block;
+    padding: .8rem 2vw;
+    text-decoration: none;
+    color: black;
+    border-top: 1px solid rgba(0,0,0,0.5);
+}
+
+nav ul.open {
+    display: block;
+}
+
+nav ul li a:hover {
+    background-color: #ccd5ae;
+    color: black;
+
+}
+
+.responsive li {
+	display: block;
+	width: 100%;
+}
+
+.mainnav.responsive li a {
+	display: block;
+}
